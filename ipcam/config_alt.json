@@ -1,0 +1,13 @@
+{
+    "title": "Mediatronix Camera Client",
+    "image_dir": "./images",
+    "cameras": {
+        "0": {
+            "enabled": true,
+            "ip": "127.0.0.1",
+            "port": 4022,
+            "stream": 0
+        }
+    }
+}
+

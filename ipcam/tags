@@ -1,0 +1,283 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(OBJECTS)	Makefile	/^$(OBJECTS): %.o:%.c$/;"	t
+$(OUTPUT)	Makefile	/^$(OUTPUT): $(OBJECTS)$/;"	t
+%.o	Makefile	/^$(OBJECTS): %.o:%.c$/;"	t
+0	config.json	/^        "0": {$/;"	o	object:cameras
+0	config_alt.json	/^        "0": {$/;"	o	object:cameras
+1	config.json	/^        "1": {$/;"	o	object:cameras
+2	config.json	/^        "2": {$/;"	o	object:cameras
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -std=c11 -DDEBOG=0 -O3 # -mcpu=cortex-a53 -mfpu=neon-fp-armv8$/;"	m
+CIRCFIFO_H	src/circfifo.h	/^#define CIRCFIFO_H$/;"	d
+CLIENT_H	src/threadedClientSocket.h	/^#define CLIENT_H$/;"	d
+CLOSE	src/threadedClientSocket.h	/^#define CLOSE /;"	d
+CONFIG_PARSER_H	src/config_parser.h	/^#define CONFIG_PARSER_H$/;"	d
+CONNECTED	src/threadedClientSocket.h	/^#define CONNECTED /;"	d
+Camera Image Recieve Test Utility V3.1	README_OLD.md	/^Camera Image Recieve Test Utility V3.1$/;"	c
+Config File	README.md	/^Config File$/;"	s
+DISCONNECTED	src/threadedClientSocket.h	/^#define DISCONNECTED /;"	d
+E2V_RED_CAPTURE_CMD	src/threadedClientSocket.h	/^struct E2V_RED_CAPTURE_CMD$/;"	s
+FLX_cordinate	src/threadedClientSocket.h	/^    unsigned char FLX_cordinate;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+FLY_cordinate	src/threadedClientSocket.h	/^    unsigned char FLY_cordinate;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+FRX_cordinate	src/threadedClientSocket.h	/^    unsigned char FRX_cordinate;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+FRY_cordinate	src/threadedClientSocket.h	/^    unsigned char FRY_cordinate;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+Friday 16 November 2018 12:49 pm	README_OLD.md	/^Friday 16 November 2018 12:49 pm$/;"	s
+HEADER1	src/threadedClientSocket.h	/^#define HEADER1 /;"	d
+HEADER2	src/threadedClientSocket.h	/^#define HEADER2 /;"	d
+HELPERS_H	src/helpers.h	/^#define HELPERS_H$/;"	d
+INVALID	src/threadedClientSocket.h	/^#define INVALID /;"	d
+JCONFIG_INCLUDED	src/jinclude.h	/^#define JCONFIG_INCLUDED /;"	d
+JCOPYOPT_ALL	src/transupp.h	/^    JCOPYOPT_ALL,           \/* copy all optional markers *\/$/;"	e	enum:__anonce26160f0403
+JCOPYOPT_ALL_EXCEPT_ICC	src/transupp.h	/^    JCOPYOPT_ALL_EXCEPT_ICC \/* copy all optional markers except APP2 *\/$/;"	e	enum:__anonce26160f0403
+JCOPYOPT_COMMENTS	src/transupp.h	/^    JCOPYOPT_COMMENTS,      \/* copy only comment (COM) markers *\/$/;"	e	enum:__anonce26160f0403
+JCOPYOPT_DEFAULT	src/transupp.h	/^#define JCOPYOPT_DEFAULT /;"	d
+JCOPYOPT_NONE	src/transupp.h	/^    JCOPYOPT_NONE,          \/* copy no optional markers *\/$/;"	e	enum:__anonce26160f0403
+JCOPY_OPTION	src/transupp.h	/^} JCOPY_OPTION;$/;"	t	typeref:enum:__anonce26160f0403
+JCROP_CODE	src/transupp.h	/^} JCROP_CODE;$/;"	t	typeref:enum:__anonce26160f0203
+JCROP_FORCE	src/transupp.h	/^    JCROP_FORCE$/;"	e	enum:__anonce26160f0203
+JCROP_NEG	src/transupp.h	/^    JCROP_NEG,$/;"	e	enum:__anonce26160f0203
+JCROP_POS	src/transupp.h	/^    JCROP_POS,$/;"	e	enum:__anonce26160f0203
+JCROP_UNSET	src/transupp.h	/^    JCROP_UNSET,$/;"	e	enum:__anonce26160f0203
+JFREAD	src/jinclude.h	/^#define JFREAD(/;"	d
+JFWRITE	src/jinclude.h	/^#define JFWRITE(/;"	d
+JPEG_INTERNALS	src/transupp.c	/^#define JPEG_INTERNALS$/;"	d	file:
+JXFORM_CODE	src/transupp.h	/^} JXFORM_CODE;$/;"	t	typeref:enum:__anonce26160f0103
+JXFORM_FLIP_H	src/transupp.h	/^    JXFORM_FLIP_H,          \/* horizontal flip *\/$/;"	e	enum:__anonce26160f0103
+JXFORM_FLIP_V	src/transupp.h	/^    JXFORM_FLIP_V,          \/* vertical flip *\/$/;"	e	enum:__anonce26160f0103
+JXFORM_NONE	src/transupp.h	/^    JXFORM_NONE,            \/* no transformation *\/$/;"	e	enum:__anonce26160f0103
+JXFORM_ROT_180	src/transupp.h	/^    JXFORM_ROT_180,         \/* 180-degree rotation *\/$/;"	e	enum:__anonce26160f0103
+JXFORM_ROT_270	src/transupp.h	/^    JXFORM_ROT_270          \/* 270-degree clockwise (or 90 ccw) *\/$/;"	e	enum:__anonce26160f0103
+JXFORM_ROT_90	src/transupp.h	/^    JXFORM_ROT_90,          \/* 90-degree clockwise rotation *\/$/;"	e	enum:__anonce26160f0103
+JXFORM_TRANSPOSE	src/transupp.h	/^    JXFORM_TRANSPOSE,       \/* transpose across UL-to-LR axis *\/$/;"	e	enum:__anonce26160f0103
+JXFORM_TRANSVERSE	src/transupp.h	/^    JXFORM_TRANSVERSE,      \/* transpose across UR-to-LL axis *\/$/;"	e	enum:__anonce26160f0103
+Journal	README.md	/^Journal$/;"	s
+LDFLAGS	Makefile	/^LDFLAGS = -lpthread -lyajl -ljpeg$/;"	m
+MAXREMOTE_RX_DATA_FIFO_LENGTH	src/threadedClientSocket.h	/^#define MAXREMOTE_RX_DATA_FIFO_LENGTH /;"	d
+MAXREMOTE_TX_DATA_FIFO_LENGTH	src/threadedClientSocket.h	/^#define MAXREMOTE_TX_DATA_FIFO_LENGTH /;"	d
+MAX_ATTEMPTS	src/threadedClientSocket.c	/^#define MAX_ATTEMPTS /;"	d	file:
+MAX_CLIENT_CONNECTIONS	src/threadedClientSocket.h	/^#define MAX_CLIENT_CONNECTIONS /;"	d
+MAX_NO_SOCKETS	src/threadedClientSocket.h	/^#define MAX_NO_SOCKETS /;"	d
+MAX_RX_DATA_BUFFER	src/threadedClientSocket.h	/^#define MAX_RX_DATA_BUFFER /;"	d
+MAX_SOCKET_DATA_TR	src/threadedClientSocket.h	/^#define MAX_SOCKET_DATA_TR /;"	d
+MAX_TX_DATA_BUFFER	src/threadedClientSocket.h	/^#define MAX_TX_DATA_BUFFER /;"	d
+MAX_TX_DATA_SIZE_MASK	src/threadedClientSocket.h	/^#define MAX_TX_DATA_SIZE_MASK /;"	d
+MAX_WDT_COUNT	src/threadedClientSocket.h	/^#define MAX_WDT_COUNT /;"	d
+MEMCOPY	src/jinclude.h	/^#define MEMCOPY(/;"	d
+MEMZERO	src/jinclude.h	/^#define MEMZERO(/;"	d
+Mediatronix IP Camera Stream Client	README.md	/^Mediatronix IP Camera Stream Client$/;"	s
+NEW Modifications.	README_OLD.md	/^NEW Modifications.$/;"	c
+NO_OF_PROCESS	src/threadedClientSocket.h	/^#define NO_OF_PROCESS /;"	d
+OBJECTS	Makefile	/^OBJECTS = $(SOURCES:%.c=%.o)$/;"	m
+ONE_SEC_TIMER	src/threadedClientSocket.h	/^#define ONE_SEC_TIMER /;"	d
+OUTPUT	Makefile	/^OUTPUT = camera_client$/;"	m
+PACKET_LENGTH	src/threadedClientSocket.h	/^#define PACKET_LENGTH /;"	d
+POLL_TIMEOUT_MSEC	src/threadedClientSocket.h	/^#define POLL_TIMEOUT_MSEC /;"	d
+READY	src/threadedClientSocket.h	/^#define READY /;"	d
+REMOTE_KEEPALIVETIMEOUT	src/threadedClientSocket.h	/^#define REMOTE_KEEPALIVETIMEOUT /;"	d
+RLX_cordinate	src/threadedClientSocket.h	/^    unsigned char RLX_cordinate;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+RLY_cordinate	src/threadedClientSocket.h	/^    unsigned char RLY_cordinate;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+RRX_cordinate	src/threadedClientSocket.h	/^    unsigned char RRX_cordinate;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+RRY_cordinate	src/threadedClientSocket.h	/^    unsigned char RRY_cordinate;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+Requirements	README.md	/^Requirements$/;"	s
+SEQUENCE_NO	src/threadedClientSocket.h	/^#define SEQUENCE_NO /;"	d
+SOCKET_SEND_BUFF_LENGTH	src/threadedClientSocket.h	/^#define SOCKET_SEND_BUFF_LENGTH /;"	d
+SOURCES	Makefile	/^SOURCES = $(shell find $(SRCDIR) -name '*.c')$/;"	m
+SRCDIR	Makefile	/^SRCDIR = src$/;"	m
+TODO	README.md	/^TODO$/;"	s
+TRANSFORMS_SUPPORTED	src/transupp.h	/^#define TRANSFORMS_SUPPORTED /;"	d
+T_E2V_RED_CAPTURE_CMD	src/threadedClientSocket.h	/^} T_E2V_RED_CAPTURE_CMD;$/;"	v	typeref:struct:E2V_RED_CAPTURE_CMD
+Thursday 27 December 2018 01:23 pm	README_OLD.md	/^Thursday 27 December 2018 01:23 pm$/;"	s
+_DCT_h_scaled_size	src/jpegcomp.h	/^#define _DCT_h_scaled_size /;"	d
+_DCT_scaled_size	src/jpegcomp.h	/^#define _DCT_scaled_size /;"	d
+_DCT_v_scaled_size	src/jpegcomp.h	/^#define _DCT_v_scaled_size /;"	d
+_GNU_SOURCE	src/threadedClientSocket.c	/^#define _GNU_SOURCE$/;"	d	file:
+__anonce26160f0103	src/transupp.h	/^typedef enum {$/;"	g
+__anonce26160f0203	src/transupp.h	/^typedef enum {$/;"	g
+__anonce26160f0308	src/transupp.h	/^typedef struct {$/;"	s
+__anonce26160f0403	src/transupp.h	/^typedef enum {$/;"	g
+_jpeg_height	src/jpegcomp.h	/^#define _jpeg_height /;"	d
+_jpeg_width	src/jpegcomp.h	/^#define _jpeg_width /;"	d
+_min_DCT_h_scaled_size	src/jpegcomp.h	/^#define _min_DCT_h_scaled_size /;"	d
+_min_DCT_scaled_size	src/jpegcomp.h	/^#define _min_DCT_scaled_size /;"	d
+_min_DCT_v_scaled_size	src/jpegcomp.h	/^#define _min_DCT_v_scaled_size /;"	d
+adjust_exif_parameters	src/transupp.c	/^adjust_exif_parameters(JOCTET *data, unsigned int length, JDIMENSION new_width,$/;"	f	typeref:typename:void
+all	Makefile	/^all: $(OBJECTS) $(OUTPUT)$/;"	t
+app_exit	src/threadedClientSocket.c	/^static unsigned int app_exit = 0;$/;"	v	typeref:typename:unsigned int	file:
+aux_keep_alive_timer	src/threadedClientSocket.h	/^    unsigned int *aux_keep_alive_timer;$/;"	m	struct:wdt	typeref:typename:unsigned int *
+avg_light_value	src/threadedClientSocket.h	/^    unsigned char avg_light_value;\/\/ average lux value(255-1)$/;"	m	struct:img_header	typeref:typename:unsigned char
+cameras	config.json	/^    "cameras": {$/;"	o
+cameras	config_alt.json	/^    "cameras": {$/;"	o
+cirfifo	src/circfifo.h	/^struct cirfifo$/;"	s
+clean	Makefile	/^clean:$/;"	t
+client_keep_alive_tx_count	src/threadedClientSocket.h	/^    unsigned int client_keep_alive_tx_count;        \/\/ remote keep alive tx delay.$/;"	m	struct:tst	typeref:typename:unsigned int
+client_keep_alive_tx_status	src/threadedClientSocket.h	/^    unsigned int client_keep_alive_tx_status;       \/\/ remote keep alive tx delay.$/;"	m	struct:tst	typeref:typename:unsigned int
+cmd	src/threadedClientSocket.h	/^    unsigned char cmd;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+cnt_sec	src/threadedClientSocket.h	/^    unsigned char cnt_sec;\/\/ 0-fps\/\/ count of the image captured in this second$/;"	m	struct:img_header	typeref:typename:unsigned char
+config	src/config_parser.h	/^struct config {$/;"	s
+config_parser	src/config_parser.c	/^struct config *config_parser(const char *config_file_path) {$/;"	f	typeref:struct:config *
+configs	src/config_parser.h	/^    struct ipconfigs *configs;$/;"	m	struct:config	typeref:struct:ipconfigs *
+connection_mode	src/threadedClientSocket.h	/^    unsigned int connection_mode;                   \/\/ Server=0\/Client=1$/;"	m	struct:tst	typeref:typename:unsigned int
+connection_status	src/threadedClientSocket.h	/^    unsigned int connection_status;                 \/\/ READY=2\/CONNECTED=1\/DISCONNECTED=0$/;"	m	struct:tst	typeref:typename:unsigned int
+copy_status_flags_n_send	src/threadedClientSocket.c	/^void copy_status_flags_n_send(unsigned int tx_size, struct tst *tst)$/;"	f	typeref:typename:void
+crop	src/transupp.h	/^    boolean crop;                 \/* if TRUE, crop source image *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:boolean
+crop_height	src/transupp.h	/^    JDIMENSION crop_height;       \/* Height of selected region *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JDIMENSION
+crop_height_set	src/transupp.h	/^    JCROP_CODE crop_height_set;   \/* (forced disables adjustment) *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JCROP_CODE
+crop_width	src/transupp.h	/^    JDIMENSION crop_width;        \/* Width of selected region *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JDIMENSION
+crop_width_set	src/transupp.h	/^    JCROP_CODE crop_width_set;    \/* (forced disables adjustment) *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JCROP_CODE
+crop_xoffset	src/transupp.h	/^    JDIMENSION crop_xoffset;      \/* X offset of selected region *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JDIMENSION
+crop_xoffset_set	src/transupp.h	/^    JCROP_CODE crop_xoffset_set;  \/* (negative measures from right edge) *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JCROP_CODE
+crop_yoffset	src/transupp.h	/^    JDIMENSION crop_yoffset;      \/* Y offset of selected region *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JDIMENSION
+crop_yoffset_set	src/transupp.h	/^    JCROP_CODE crop_yoffset_set;  \/* (negative measures from bottom edge) *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JCROP_CODE
+day	src/threadedClientSocket.h	/^    unsigned char day;\/\/ 1-28,30,31$/;"	m	struct:img_header	typeref:typename:unsigned char
+destination	src/threadedClientSocket.h	/^    unsigned char destination;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+display_buffer	src/helpers.c	/^void display_buffer(unsigned char *src, unsigned short buff_len) {$/;"	f	typeref:typename:void
+do_crop	src/transupp.c	/^do_crop(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+do_flip_h	src/transupp.c	/^do_flip_h(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+do_flip_h_no_crop	src/transupp.c	/^do_flip_h_no_crop(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+do_flip_v	src/transupp.c	/^do_flip_v(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+do_rot_180	src/transupp.c	/^do_rot_180(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+do_rot_270	src/transupp.c	/^do_rot_270(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+do_rot_90	src/transupp.c	/^do_rot_90(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+do_transpose	src/transupp.c	/^do_transpose(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+do_transverse	src/transupp.c	/^do_transverse(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+dstinfo_min_DCT_h_scaled_size	src/transupp.c	/^#define dstinfo_min_DCT_h_scaled_size /;"	d	file:
+dstinfo_min_DCT_v_scaled_size	src/transupp.c	/^#define dstinfo_min_DCT_v_scaled_size /;"	d	file:
+enabled	config.json	/^            "enabled": false,$/;"	b	object:cameras.2
+enabled	config.json	/^            "enabled": true,$/;"	b	object:cameras.0
+enabled	config.json	/^            "enabled": true,$/;"	b	object:cameras.1
+enabled	config_alt.json	/^            "enabled": true,$/;"	b	object:cameras.0
+enabled	src/threadedClientSocket.h	/^    unsigned int enabled;$/;"	m	struct:wdt	typeref:typename:unsigned int
+err	src/threadedClientSocket.h	/^    unsigned int *err;$/;"	m	struct:wdt	typeref:typename:unsigned int *
+expected_len	src/threadedClientSocket.h	/^    unsigned long expected_len;$/;"	m	struct:tst	typeref:typename:unsigned long
+exposure_type	src/threadedClientSocket.h	/^    unsigned char exposure_type;\/\/  0 = high\/normal, 1= low;$/;"	m	struct:img_header	typeref:typename:unsigned char
+fifo	src/circfifo.h	/^    unsigned char *fifo;    \/\/ address of the fifo (constant)$/;"	m	struct:cirfifo	typeref:typename:unsigned char *
+fifo_depth	src/circfifo.h	/^    unsigned long fifo_depth; \/\/ fifo depth (constant)$/;"	m	struct:cirfifo	typeref:typename:unsigned long
+fifo_flush	src/circfifo.c	/^void fifo_flush(struct cirfifo *fifo)$/;"	f	typeref:typename:void
+fifo_init	src/circfifo.c	/^void fifo_init(struct cirfifo *fifo, unsigned long depth, unsigned char *data)$/;"	f	typeref:typename:void
+fifo_peek	src/circfifo.c	/^unsigned long fifo_peek(struct cirfifo *fifo, unsigned char * data, unsigned long len)$/;"	f	typeref:typename:unsigned long
+fifo_read	src/circfifo.c	/^unsigned long fifo_read(struct cirfifo *fifo, unsigned char * data, unsigned long len)$/;"	f	typeref:typename:unsigned long
+fifo_rewind	src/circfifo.c	/^unsigned long fifo_rewind(struct cirfifo *fifo, unsigned long length)\/\/ if ok returns (rewind /;"	f	typeref:typename:unsigned long
+fifo_write	src/circfifo.c	/^unsigned long fifo_write(struct cirfifo *fifo, unsigned char *data, unsigned long len)$/;"	f	typeref:typename:unsigned long
+filled_length	src/circfifo.h	/^    unsigned long filled_length;$/;"	m	struct:cirfifo	typeref:typename:unsigned long
+flags	src/threadedClientSocket.h	/^    unsigned char flags;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+flash_status	src/threadedClientSocket.h	/^    unsigned char flash_status;\/\/ flash on \/ off 0=off(single capture), 1=on(double capture)./;"	m	struct:img_header	typeref:typename:unsigned char
+force_grayscale	src/transupp.h	/^    boolean force_grayscale;      \/* if TRUE, convert color image to grayscale *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:boolean
+header	src/threadedClientSocket.h	/^    unsigned short header;\/* headerStartMarker is 0xA235 *\/$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned short
+header1	src/threadedClientSocket.h	/^    unsigned short header1;$/;"	m	struct:img_header	typeref:typename:unsigned short
+header2	src/threadedClientSocket.h	/^    unsigned short header2;$/;"	m	struct:img_header	typeref:typename:unsigned short
+height	src/threadedClientSocket.h	/^    unsigned short height;$/;"	m	struct:img_header	typeref:typename:unsigned short
+hour	src/threadedClientSocket.h	/^    unsigned char hour;\/\/ 0-24$/;"	m	struct:img_header	typeref:typename:unsigned char
+iMCU_sample_height	src/transupp.h	/^    int iMCU_sample_height;$/;"	m	struct:__anonce26160f0308	typeref:typename:int
+iMCU_sample_width	src/transupp.h	/^    int iMCU_sample_width;        \/* destination iMCU size *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:int
+image_dir	config.json	/^    "image_dir": "\/dev\/shm\/Images",$/;"	s
+image_dir	config_alt.json	/^    "image_dir": ".\/images",$/;"	s
+image_save	src/threadedClientSocket.c	/^int image_save(unsigned long size, unsigned char* img_buff, unsigned char *metadata, unsigned ch/;"	f	typeref:typename:int
+img_dir	src/config_parser.h	/^    char *img_dir;$/;"	m	struct:config	typeref:typename:char *
+img_dir	src/threadedClientSocket.c	/^static char *img_dir = NULL; $/;"	v	typeref:typename:char *	file:
+img_header	src/threadedClientSocket.h	/^struct img_header {\/\/ use this with only version no > F152_036. no backward compatiblity.$/;"	s
+img_size	src/threadedClientSocket.h	/^    unsigned long img_size;$/;"	m	struct:img_header	typeref:typename:unsigned long
+init_timer	src/threadedClientSocket.c	/^void init_timer()$/;"	f	typeref:typename:void
+ip	config.json	/^            "ip": "10.10.1.3",$/;"	s	object:cameras.0
+ip	config.json	/^            "ip": "10.10.1.3",$/;"	s	object:cameras.1
+ip	config.json	/^            "ip": "192.168.3.113",$/;"	s	object:cameras.2
+ip	config_alt.json	/^            "ip": "127.0.0.1",$/;"	s	object:cameras.0
+ip	src/threadedClientSocket.h	/^    char ip[18];                                    \/\/ ip no$/;"	m	struct:tst	typeref:typename:char[18]
+ipaddr	src/threadedClientSocket.h	/^    char ipaddr[18];$/;"	m	struct:ipconfigs	typeref:typename:char[18]
+ipconfigs	src/threadedClientSocket.h	/^struct ipconfigs$/;"	s
+jcopy_markers_execute	src/transupp.c	/^jcopy_markers_execute(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+jcopy_markers_setup	src/transupp.c	/^jcopy_markers_setup(j_decompress_ptr srcinfo, JCOPY_OPTION option)$/;"	f	typeref:typename:void
+jpeg_transform_info	src/transupp.h	/^} jpeg_transform_info;$/;"	t	typeref:struct:__anonce26160f0308
+jt_read_integer	src/transupp.c	/^jt_read_integer(const char **strptr, JDIMENSION *result)$/;"	f	typeref:typename:boolean
+jtransform_adjust_parameters	src/transupp.c	/^jtransform_adjust_parameters(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:jvirt_barray_ptr *
+jtransform_execute_transform	src/transupp.c	/^jtransform_execute_transform(j_decompress_ptr srcinfo, j_compress_ptr dstinfo,$/;"	f	typeref:typename:void
+jtransform_execute_transformation	src/transupp.h	/^#define jtransform_execute_transformation /;"	d
+jtransform_parse_crop_spec	src/transupp.c	/^jtransform_parse_crop_spec(jpeg_transform_info *info, const char *spec)$/;"	f	typeref:typename:boolean
+jtransform_perfect_transform	src/transupp.c	/^jtransform_perfect_transform(JDIMENSION image_width, JDIMENSION image_height,$/;"	f	typeref:typename:boolean
+jtransform_request_workspace	src/transupp.c	/^jtransform_request_workspace(j_decompress_ptr srcinfo,$/;"	f	typeref:typename:boolean
+keep_alive_reload	src/threadedClientSocket.h	/^    unsigned int *keep_alive_reload;$/;"	m	struct:wdt	typeref:typename:unsigned int *
+keep_alive_timer	src/threadedClientSocket.h	/^    unsigned int *keep_alive_timer;$/;"	m	struct:wdt	typeref:typename:unsigned int *
+keepalive_timer	src/threadedClientSocket.c	/^static struct wdt keepalive_timer[MAX_CLIENT_CONNECTIONS];$/;"	v	typeref:struct:wdt[]	file:
+kill_timer	src/threadedClientSocket.c	/^void kill_timer()$/;"	f	typeref:typename:void
+lane_evidence	src/threadedClientSocket.h	/^    unsigned char lane_evidence;$/;"	m	struct:img_header	typeref:typename:unsigned char
+lane_no	src/threadedClientSocket.h	/^    unsigned char lane_no;$/;"	m	struct:img_header	typeref:typename:unsigned char
+lba	src/threadedClientSocket.h	/^    unsigned long lba;$/;"	m	struct:img_header	typeref:typename:unsigned long
+light_table_index	src/threadedClientSocket.h	/^    unsigned char light_table_index;\/\/0-31 fore noon, 32-63 afternoon, 64 night.$/;"	m	struct:img_header	typeref:typename:unsigned char
+local_host_keep_alive	src/threadedClientSocket.h	/^    unsigned int local_host_keep_alive;             \/\/ local keep alive$/;"	m	struct:tst	typeref:typename:unsigned int
+main	src/threadedClientSocket.c	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+min	src/threadedClientSocket.h	/^    unsigned char min;\/\/ 0-59$/;"	m	struct:img_header	typeref:typename:unsigned char
+month	src/threadedClientSocket.h	/^    unsigned char month;\/\/ 0-11$/;"	m	struct:img_header	typeref:typename:unsigned char
+n_config	src/config_parser.h	/^    size_t n_config;$/;"	m	struct:config	typeref:typename:size_t
+no_of_vehicles	src/threadedClientSocket.h	/^    unsigned char no_of_vehicles;$/;"	m	struct:img_header	typeref:typename:unsigned char
+num_components	src/transupp.h	/^    int num_components;           \/* # of components in workspace *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:int
+offset	src/threadedClientSocket.h	/^    unsigned short offset;\/\/ no of header bytes to skip from file start..(32)$/;"	m	struct:img_header	typeref:typename:unsigned short
+output_height	src/transupp.h	/^    JDIMENSION output_height;$/;"	m	struct:__anonce26160f0308	typeref:typename:JDIMENSION
+output_width	src/transupp.h	/^    JDIMENSION output_width;      \/* cropped destination dimensions *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JDIMENSION
+perfect	src/transupp.h	/^    boolean perfect;              \/* if TRUE, fail if partial MCUs are requested *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:boolean
+port	config.json	/^            "port": 20$/;"	n	object:cameras.2
+port	config.json	/^            "port": 20,$/;"	n	object:cameras.0
+port	config.json	/^            "port": 20,$/;"	n	object:cameras.1
+port	config_alt.json	/^            "port": 4022,$/;"	n	object:cameras.0
+port	src/threadedClientSocket.h	/^    char port[5];$/;"	m	struct:ipconfigs	typeref:typename:char[5]
+port_no	src/threadedClientSocket.h	/^    char port_no[5];                                \/\/ port no$/;"	m	struct:tst	typeref:typename:char[5]
+process_rx	src/threadedClientSocket.c	/^void process_rx(struct tst *tst)$/;"	f	typeref:typename:void
+process_tx	src/threadedClientSocket.c	/^void process_tx(struct tst *tst)$/;"	f	typeref:typename:void
+readptr	src/circfifo.h	/^    unsigned long readptr;$/;"	m	struct:cirfifo	typeref:typename:unsigned long
+remote_keep_alive_count	src/threadedClientSocket.h	/^    unsigned int remote_keep_alive_count;           \/\/ remote keep alive status$/;"	m	struct:tst	typeref:typename:unsigned int
+remote_keep_alive_count_reload	src/threadedClientSocket.h	/^    unsigned int remote_keep_alive_count_reload;    \/\/ remote keep alive reload value$/;"	m	struct:tst	typeref:typename:unsigned int
+remote_rx_fifo	src/threadedClientSocket.h	/^    struct cirfifo        *remote_rx_fifo;          \/\/$/;"	m	struct:tst	typeref:struct:cirfifo *
+remote_tx_fifo	src/threadedClientSocket.h	/^    struct cirfifo        *remote_tx_fifo;          \/\/$/;"	m	struct:tst	typeref:struct:cirfifo *
+res1	src/threadedClientSocket.h	/^    unsigned int res1;$/;"	m	struct:wdt	typeref:typename:unsigned int
+res2	src/threadedClientSocket.h	/^    unsigned int res2;$/;"	m	struct:wdt	typeref:typename:unsigned int
+res3	src/threadedClientSocket.h	/^    unsigned int res3;$/;"	m	struct:wdt	typeref:typename:unsigned int
+reserved	src/threadedClientSocket.h	/^    unsigned char reserved;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+reserved0	src/circfifo.h	/^    unsigned long reserved0; \/\/ to pad$/;"	m	struct:cirfifo	typeref:typename:unsigned long
+reserved1	src/circfifo.h	/^    unsigned long reserved1; \/\/ to pad$/;"	m	struct:cirfifo	typeref:typename:unsigned long
+rx_data_buffer	src/threadedClientSocket.h	/^    unsigned short        *rx_data_buffer;$/;"	m	struct:tst	typeref:typename:unsigned short *
+rx_in_progress	src/threadedClientSocket.h	/^    unsigned int rx_in_progress;$/;"	m	struct:tst	typeref:typename:unsigned int
+sa	src/threadedClientSocket.c	/^static struct sigaction sa;$/;"	v	typeref:struct:sigaction	file:
+sec	src/threadedClientSocket.h	/^    unsigned char sec;\/\/ 0-59$/;"	m	struct:img_header	typeref:typename:unsigned char
+send_communication_init	src/threadedClientSocket.h	/^    unsigned int send_communication_init;           \/\/ start comm command 0x8A..$/;"	m	struct:tst	typeref:typename:unsigned int
+sequence_no	src/threadedClientSocket.h	/^    unsigned long sequence_no;\/\/  capture count; for night capture, high and low will have sam/;"	m	struct:img_header	typeref:typename:unsigned long
+sequence_no	src/threadedClientSocket.h	/^    unsigned short sequence_no;$/;"	m	struct:tst	typeref:typename:unsigned short
+server_rx	src/threadedClientSocket.c	/^void server_rx(struct tst *tst)$/;"	f	typeref:typename:void
+server_tx	src/threadedClientSocket.c	/^int server_tx(struct tst *tst)$/;"	f	typeref:typename:int
+slow_hflip	src/transupp.h	/^    boolean slow_hflip;  \/* For best performance, the JXFORM_FLIP_H transform$/;"	m	struct:__anonce26160f0308	typeref:typename:boolean
+sock_number	src/threadedClientSocket.h	/^    unsigned int sock_number;                       \/\/ connection number for tracing..$/;"	m	struct:tst	typeref:typename:unsigned int
+socket_handle	src/threadedClientSocket.h	/^    int socket_handle;                              \/\/ handle...$/;"	m	struct:tst	typeref:typename:int
+stream	config.json	/^            "stream": 0$/;"	n	object:cameras.1
+stream	config.json	/^            "stream": 1$/;"	n	object:cameras.0
+stream	config_alt.json	/^            "stream": 0$/;"	n	object:cameras.0
+strm	src/threadedClientSocket.h	/^    int strm;                                       \/\/ stream, 0 := HD, 1 := VGA$/;"	m	struct:tst	typeref:typename:int
+strm	src/threadedClientSocket.h	/^    int valid, strm;$/;"	m	struct:ipconfigs	typeref:typename:int
+threadedSocketThread	src/threadedClientSocket.c	/^void threadedSocketThread(void * arg)$/;"	f	typeref:typename:void
+timer	src/threadedClientSocket.c	/^static struct itimerval timer;$/;"	v	typeref:struct:itimerval	file:
+timer_handler	src/threadedClientSocket.c	/^void timer_handler(int signum)$/;"	f	typeref:typename:void
+title	config.json	/^    "title": "Mediatronix Camera Client",$/;"	s
+title	config_alt.json	/^    "title": "Mediatronix Camera Client",$/;"	s
+transform	src/transupp.h	/^    JXFORM_CODE transform;        \/* image transform operator *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JXFORM_CODE
+transpose_critical_parameters	src/transupp.c	/^transpose_critical_parameters(j_compress_ptr dstinfo)$/;"	f	typeref:typename:void
+trim	src/transupp.h	/^    boolean trim;                 \/* if TRUE, trim partial MCUs as needed *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:boolean
+trim_bottom_edge	src/transupp.c	/^trim_bottom_edge(jpeg_transform_info *info, JDIMENSION full_height)$/;"	f	typeref:typename:void
+trim_right_edge	src/transupp.c	/^trim_right_edge(jpeg_transform_info *info, JDIMENSION full_width)$/;"	f	typeref:typename:void
+tst	src/threadedClientSocket.h	/^struct tst {$/;"	s
+tx_data_buffer	src/threadedClientSocket.h	/^    unsigned short        *tx_data_buffer;$/;"	m	struct:tst	typeref:typename:unsigned short *
+type	src/threadedClientSocket.h	/^    unsigned char type;\/\/ 0 = color \/1 = monochrome$/;"	m	struct:img_header	typeref:typename:unsigned char
+valid	src/threadedClientSocket.h	/^    int valid, strm;$/;"	m	struct:ipconfigs	typeref:typename:int
+vehID	src/threadedClientSocket.h	/^    unsigned char vehID;\/\/ vehicle number in image.$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+veh_type	src/threadedClientSocket.h	/^    unsigned char veh_type;$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:unsigned char
+vehicle_type	src/threadedClientSocket.h	/^    unsigned char vehicle_type[8];$/;"	m	struct:img_header	typeref:typename:unsigned char[8]
+violationNumber	src/threadedClientSocket.h	/^    uint32_t violationNumber;       \/*violation number for this capture*\/$/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:uint32_t
+wdt	src/threadedClientSocket.h	/^struct wdt {$/;"	s
+width	src/threadedClientSocket.h	/^    unsigned short width;$/;"	m	struct:img_header	typeref:typename:unsigned short
+workspace_coef_arrays	src/transupp.h	/^    jvirt_barray_ptr *workspace_coef_arrays; \/* workspace for transformations *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:jvirt_barray_ptr *
+writeptr	src/circfifo.h	/^    unsigned long writeptr;$/;"	m	struct:cirfifo	typeref:typename:unsigned long
+xFpsSequenceNumber	src/threadedClientSocket.h	/^    uint32_t xFpsSequenceNumber;\/*xFpsCapture number, ANPR NVR capture-sequence number for this/;"	m	struct:E2V_RED_CAPTURE_CMD	typeref:typename:uint32_t
+x_crop_offset	src/transupp.h	/^    JDIMENSION x_crop_offset;     \/* destination crop offsets measured in iMCUs *\/$/;"	m	struct:__anonce26160f0308	typeref:typename:JDIMENSION
+y_crop_offset	src/transupp.h	/^    JDIMENSION y_crop_offset;$/;"	m	struct:__anonce26160f0308	typeref:typename:JDIMENSION
+year	src/threadedClientSocket.h	/^    unsigned char year;\/\/ 1900 + value$/;"	m	struct:img_header	typeref:typename:unsigned char
